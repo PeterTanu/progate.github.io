@@ -1,0 +1,22 @@
+@media (max-width: 1000px) {
+  .main-article {
+    width: 100%;
+  }
+
+  .related-article {
+    float: none;
+    width: 70%;
+    border-left: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .related-article {
+    float: none;
+    width: 100%;
+  }
+
+  .right-section {
+    display: none;
+  }
+}
