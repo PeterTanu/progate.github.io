@@ -19,6 +19,8 @@
 }
 
 .left-section h3 {
+  font-family: sans-serif;
+  letter-spacing: 2px;
   display: inline-block;
 
   line-height: 40px;
@@ -29,6 +31,7 @@
 }
 
 .right-section h4 {
+  font-family: cursive;
   display: inline-block;
   line-height: 40px;
 }
@@ -40,6 +43,9 @@
 }
 
 header span {
+  font-family: serif;
+  letter-spacing: normal;
+  margin-right: 5px;
   font-style: italic;
 }
 /* end of header */
@@ -50,9 +56,39 @@ header span {
 }
 
 .main-wrapper .container {
-  padding: 10px;
-  background-color: lightsalmon;
+  padding: 100px 0 100px 0;
+  background-image: url(img/photo-1584036561566-baf8f5f1b144.jpg);
+  background-size: cover;
   text-align: center;
+}
+
+.head h1 {
+  font-family: fantasy;
+  letter-spacing: 8px;
+}
+.head h1,
+h2 {
+  color: white;
+  line-height: 2px;
+}
+
+.head h2 {
+  font-family: monospace;
+}
+
+.main-wrapper p {
+  font-weight: bold;
+  font-family: cursive;
+}
+.head p {
+  color: coral;
+}
+
+.head {
+  margin-bottom: 100px;
+}
+.bot {
+  color: green;
 }
 
 /* end of main section */
