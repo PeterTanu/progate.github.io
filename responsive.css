@@ -2,6 +2,10 @@
   .main-article {
     width: 100%;
   }
+  .article-icon img {
+    width: 50%;
+    float: left;
+  }
 
   .related-article {
     float: none;
@@ -11,6 +15,14 @@
 }
 
 @media (max-width: 670px) {
+  .head p {
+    text-align: justify;
+  }
+
+  .article-icon img {
+    width: 80%;
+  }
+
   .related-article {
     float: none;
     width: 100%;
